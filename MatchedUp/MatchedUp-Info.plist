@@ -41,8 +41,7 @@
 		</dict>
 	</dict>
 	<key>FacebookAppID</key>
-	<string>319940514838369
-</string>
+	<string>635711903179935</string>
 	<key>FacebookDisplayName</key>
 	<string>MatchedUp</string>
 	<key>CFBundleURLTypes</key>
@@ -50,8 +49,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb319940514838369
-</string>
+				<string>fb635711903179935</string>
 			</array>
 		</dict>
 	</array>
