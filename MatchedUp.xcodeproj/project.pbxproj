@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223068DC198C0F5B00D0CB87 /* MUChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223068DB198C0F5B00D0CB87 /* MUChatViewController.m */; };
+		223ED569197D486900CD48F0 /* MUProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223ED568197D486900CD48F0 /* MUProfileViewController.m */; };
+		223EFBCF198BDC5E00FF1D3E /* MUMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223EFBCE198BDC5E00FF1D3E /* MUMatchViewController.m */; };
+		223EFBD4198BE10600FF1D3E /* MUMatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223EFBD3198BE10600FF1D3E /* MUMatchesViewController.m */; };
+		2257A4FE198024FE00A32595 /* MUTestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257A4FD198024FE00A32595 /* MUTestUser.m */; };
+		2257C416197AE4B700AD9AD3 /* MUHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257C415197AE4B700AD9AD3 /* MUHomeViewController.m */; };
+		22A9BE721974514900C85410 /* MUConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A9BE711974514900C85410 /* MUConstants.m */; };
 		22AEA4861962E8DB009CAB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AEA4851962E8DB009CAB94 /* Foundation.framework */; };
 		22AEA4881962E8DB009CAB94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AEA4871962E8DB009CAB94 /* CoreGraphics.framework */; };
 		22AEA48A1962E8DB009CAB94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AEA4891962E8DB009CAB94 /* UIKit.framework */; };
@@ -14,8 +21,6 @@
 		22AEA4921962E8DB009CAB94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AEA4911962E8DB009CAB94 /* main.m */; };
 		22AEA4961962E8DB009CAB94 /* MUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AEA4951962E8DB009CAB94 /* MUAppDelegate.m */; };
 		22AEA4991962E8DB009CAB94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AEA4971962E8DB009CAB94 /* Main.storyboard */; };
-		22AEA49C1962E8DB009CAB94 /* MUFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AEA49B1962E8DB009CAB94 /* MUFirstViewController.m */; };
-		22AEA49F1962E8DB009CAB94 /* MUSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AEA49E1962E8DB009CAB94 /* MUSecondViewController.m */; };
 		22AEA4A11962E8DB009CAB94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AEA4A01962E8DB009CAB94 /* Images.xcassets */; };
 		22AEA4A81962E8DB009CAB94 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AEA4A71962E8DB009CAB94 /* XCTest.framework */; };
 		22AEA4A91962E8DB009CAB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AEA4851962E8DB009CAB94 /* Foundation.framework */; };
@@ -23,6 +28,9 @@
 		22AEA4B21962E8DB009CAB94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22AEA4B01962E8DB009CAB94 /* InfoPlist.strings */; };
 		22AEA4B41962E8DB009CAB94 /* MatchedUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AEA4B31962E8DB009CAB94 /* MatchedUpTests.m */; };
 		22AEA4BF1962EA41009CAB94 /* MULoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AEA4BE1962EA41009CAB94 /* MULoginViewController.m */; };
+		22E40A18197D385B005B0DF3 /* MUSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E40A17197D385B005B0DF3 /* MUSettingsViewController.m */; };
+		22E40A1C197D3F20005B0DF3 /* MUEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E40A1B197D3F20005B0DF3 /* MUEditProfileViewController.m */; };
+		22E9A39F19911AA7007B84E0 /* ProfileImage1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 22E9A39E19911AA7007B84E0 /* ProfileImage1.jpeg */; };
 		A3A63CFC1A0647BB881E3E56 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3127C7B05594DF0AA10CFF3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +45,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		223068DA198C0F5B00D0CB87 /* MUChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUChatViewController.h; sourceTree = "<group>"; };
+		223068DB198C0F5B00D0CB87 /* MUChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUChatViewController.m; sourceTree = "<group>"; };
+		223ED567197D486900CD48F0 /* MUProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUProfileViewController.h; sourceTree = "<group>"; };
+		223ED568197D486900CD48F0 /* MUProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUProfileViewController.m; sourceTree = "<group>"; };
+		223EFBCD198BDC5E00FF1D3E /* MUMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMatchViewController.h; sourceTree = "<group>"; };
+		223EFBCE198BDC5E00FF1D3E /* MUMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMatchViewController.m; sourceTree = "<group>"; };
+		223EFBD2198BE10600FF1D3E /* MUMatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUMatchesViewController.h; sourceTree = "<group>"; };
+		223EFBD3198BE10600FF1D3E /* MUMatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUMatchesViewController.m; sourceTree = "<group>"; };
+		2257A4FC198024FE00A32595 /* MUTestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUTestUser.h; sourceTree = "<group>"; };
+		2257A4FD198024FE00A32595 /* MUTestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUTestUser.m; sourceTree = "<group>"; };
+		2257C414197AE4B700AD9AD3 /* MUHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUHomeViewController.h; sourceTree = "<group>"; };
+		2257C415197AE4B700AD9AD3 /* MUHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUHomeViewController.m; sourceTree = "<group>"; };
+		22A9BE701974514900C85410 /* MUConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUConstants.h; sourceTree = "<group>"; };
+		22A9BE711974514900C85410 /* MUConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUConstants.m; sourceTree = "<group>"; };
 		22AEA4821962E8DB009CAB94 /* MatchedUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchedUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AEA4851962E8DB009CAB94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22AEA4871962E8DB009CAB94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,10 +70,6 @@
 		22AEA4941962E8DB009CAB94 /* MUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUAppDelegate.h; sourceTree = "<group>"; };
 		22AEA4951962E8DB009CAB94 /* MUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUAppDelegate.m; sourceTree = "<group>"; };
 		22AEA4981962E8DB009CAB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		22AEA49A1962E8DB009CAB94 /* MUFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUFirstViewController.h; sourceTree = "<group>"; };
-		22AEA49B1962E8DB009CAB94 /* MUFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUFirstViewController.m; sourceTree = "<group>"; };
-		22AEA49D1962E8DB009CAB94 /* MUSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MUSecondViewController.h; sourceTree = "<group>"; };
-		22AEA49E1962E8DB009CAB94 /* MUSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MUSecondViewController.m; sourceTree = "<group>"; };
 		22AEA4A01962E8DB009CAB94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		22AEA4A61962E8DB009CAB94 /* MatchedUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchedUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AEA4A71962E8DB009CAB94 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,6 +78,11 @@
 		22AEA4B31962E8DB009CAB94 /* MatchedUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchedUpTests.m; sourceTree = "<group>"; };
 		22AEA4BD1962EA41009CAB94 /* MULoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MULoginViewController.h; sourceTree = "<group>"; };
 		22AEA4BE1962EA41009CAB94 /* MULoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MULoginViewController.m; sourceTree = "<group>"; };
+		22E40A16197D385B005B0DF3 /* MUSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUSettingsViewController.h; sourceTree = "<group>"; };
+		22E40A17197D385B005B0DF3 /* MUSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUSettingsViewController.m; sourceTree = "<group>"; };
+		22E40A1A197D3F20005B0DF3 /* MUEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUEditProfileViewController.h; sourceTree = "<group>"; };
+		22E40A1B197D3F20005B0DF3 /* MUEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUEditProfileViewController.m; sourceTree = "<group>"; };
+		22E9A39E19911AA7007B84E0 /* ProfileImage1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ProfileImage1.jpeg; sourceTree = "<group>"; };
 		8023AAEB49A64EF6B2FFB522 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		E3127C7B05594DF0AA10CFF3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -89,6 +112,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		223ED566197D483900CD48F0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				223ED567197D486900CD48F0 /* MUProfileViewController.h */,
+				223ED568197D486900CD48F0 /* MUProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		223EFBCC198BDC1D00FF1D3E /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				223EFBCD198BDC5E00FF1D3E /* MUMatchViewController.h */,
+				223EFBCE198BDC5E00FF1D3E /* MUMatchViewController.m */,
+			);
+			name = Match;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		223EFBD1198BE0B200FF1D3E /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				223EFBD2198BE10600FF1D3E /* MUMatchesViewController.h */,
+				223EFBD3198BE10600FF1D3E /* MUMatchesViewController.m */,
+			);
+			name = Matches;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		223EFBD5198BE25B00FF1D3E /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				223068DA198C0F5B00D0CB87 /* MUChatViewController.h */,
+				223068DB198C0F5B00D0CB87 /* MUChatViewController.m */,
+			);
+			name = Chat;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2257A4FA1980245100A32595 /* CreateParseUser */ = {
+			isa = PBXGroup;
+			children = (
+				2257A4FC198024FE00A32595 /* MUTestUser.h */,
+				2257A4FD198024FE00A32595 /* MUTestUser.m */,
+			);
+			name = CreateParseUser;
+			sourceTree = "<group>";
+		};
 		22AEA4791962E8DA009CAB94 = {
 			isa = PBXGroup;
 			children = (
@@ -128,10 +199,12 @@
 				22AEA4951962E8DB009CAB94 /* MUAppDelegate.m */,
 				22AEA4971962E8DB009CAB94 /* Main.storyboard */,
 				22AEA4C01962EABA009CAB94 /* Login */,
-				22AEA49A1962E8DB009CAB94 /* MUFirstViewController.h */,
-				22AEA49B1962E8DB009CAB94 /* MUFirstViewController.m */,
-				22AEA49D1962E8DB009CAB94 /* MUSecondViewController.h */,
-				22AEA49E1962E8DB009CAB94 /* MUSecondViewController.m */,
+				22F32F4A1979A3FF00C1E8E9 /* Home */,
+				22E40A15197D37E8005B0DF3 /* Settings */,
+				223EFBCC198BDC1D00FF1D3E /* Match */,
+				223EFBD1198BE0B200FF1D3E /* Matches */,
+				223EFBD5198BE25B00FF1D3E /* Chat */,
+				2257A4FA1980245100A32595 /* CreateParseUser */,
 				22AEA4A01962E8DB009CAB94 /* Images.xcassets */,
 				22AEA48C1962E8DB009CAB94 /* Supporting Files */,
 			);
@@ -141,6 +214,9 @@
 		22AEA48C1962E8DB009CAB94 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				22E9A39E19911AA7007B84E0 /* ProfileImage1.jpeg */,
+				22A9BE701974514900C85410 /* MUConstants.h */,
+				22A9BE711974514900C85410 /* MUConstants.m */,
 				22AEA48D1962E8DB009CAB94 /* MatchedUp-Info.plist */,
 				22AEA48E1962E8DB009CAB94 /* InfoPlist.strings */,
 				22AEA4911962E8DB009CAB94 /* main.m */,
@@ -174,6 +250,36 @@
 				22AEA4BE1962EA41009CAB94 /* MULoginViewController.m */,
 			);
 			name = Login;
+			sourceTree = "<group>";
+		};
+		22E40A15197D37E8005B0DF3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				22E40A16197D385B005B0DF3 /* MUSettingsViewController.h */,
+				22E40A17197D385B005B0DF3 /* MUSettingsViewController.m */,
+				22E40A19197D3EF1005B0DF3 /* EditProfile */,
+			);
+			name = Settings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		22E40A19197D3EF1005B0DF3 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				22E40A1A197D3F20005B0DF3 /* MUEditProfileViewController.h */,
+				22E40A1B197D3F20005B0DF3 /* MUEditProfileViewController.m */,
+				223ED566197D483900CD48F0 /* Profile */,
+			);
+			name = EditProfile;
+			sourceTree = "<group>";
+		};
+		22F32F4A1979A3FF00C1E8E9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2257C414197AE4B700AD9AD3 /* MUHomeViewController.h */,
+				2257C415197AE4B700AD9AD3 /* MUHomeViewController.m */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +364,7 @@
 				22AEA4A11962E8DB009CAB94 /* Images.xcassets in Resources */,
 				22AEA4901962E8DB009CAB94 /* InfoPlist.strings in Resources */,
 				22AEA4991962E8DB009CAB94 /* Main.storyboard in Resources */,
+				22E9A39F19911AA7007B84E0 /* ProfileImage1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,11 +416,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22AEA49F1962E8DB009CAB94 /* MUSecondViewController.m in Sources */,
-				22AEA49C1962E8DB009CAB94 /* MUFirstViewController.m in Sources */,
 				22AEA4BF1962EA41009CAB94 /* MULoginViewController.m in Sources */,
+				22E40A18197D385B005B0DF3 /* MUSettingsViewController.m in Sources */,
+				2257C416197AE4B700AD9AD3 /* MUHomeViewController.m in Sources */,
 				22AEA4961962E8DB009CAB94 /* MUAppDelegate.m in Sources */,
+				22E40A1C197D3F20005B0DF3 /* MUEditProfileViewController.m in Sources */,
 				22AEA4921962E8DB009CAB94 /* main.m in Sources */,
+				223068DC198C0F5B00D0CB87 /* MUChatViewController.m in Sources */,
+				223EFBCF198BDC5E00FF1D3E /* MUMatchViewController.m in Sources */,
+				223ED569197D486900CD48F0 /* MUProfileViewController.m in Sources */,
+				22A9BE721974514900C85410 /* MUConstants.m in Sources */,
+				2257A4FE198024FE00A32595 /* MUTestUser.m in Sources */,
+				223EFBD4198BE10600FF1D3E /* MUMatchesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

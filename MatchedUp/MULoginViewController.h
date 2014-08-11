@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MULoginViewController : UIViewController
+@interface MULoginViewController : UIViewController <NSURLConnectionDataDelegate>
 
 @end
